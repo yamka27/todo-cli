@@ -1,0 +1,21 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "todo": "tsx src/cli.ts",
+    "seed": "tsx scripts/seed-todos.ts",
+    "reset": "tsx scripts/reset.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@types/node": "*",
+    "tsx": "^4.0.0",
+    "typescript": "^5.6.0"
+  }
+}
